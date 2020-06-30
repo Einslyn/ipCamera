@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 20190910
 修改“循环获取多个NVR硬盘信息，若第1个NVR无硬盘，则获取所有NVR硬盘信息都错误”问题
 recover the issue:get wrong hard disk informations if 1st NVR of several NVRs hasn't got disk .
@@ -16,4 +17,24 @@ recover the issue:get wrong hard disk informations if 1st NVR of several NVRs ha
 (3)Add new function "NET_SDK_GetAlarmStatusEx"
 (4)Support device's synchronous playback mutiple windows 
 (5)Add new function "NET_SDK_UpgradeIPC";
+=======
+20190910
+修改“循环获取多个NVR硬盘信息，若第1个NVR无硬盘，则获取所有NVR硬盘信息都错误”问题
+recover the issue:get wrong hard disk informations if 1st NVR of several NVRs hasn't got disk .
+
+
+20190902
+(1)支持获取IPC人脸比对相关主动上报;
+(2)N9000 sensor报警事件回调包含关联通道;
+(3)增加NET_SDK_GetAlarmStatusEx接口;
+(4)支持同一设备多路视频同步回放;
+(5)增加升级IPC软件接口NET_SDK_UpgradeIPC;
+(6)增加不预览3D控球接口NET_SDK_PTZControl_3D_Ex
+
+(1)Support listenning the facematch events of the IPC
+(2)The N9000 sensor alarm information add the sensor's contact channel
+(3)Add new function "NET_SDK_GetAlarmStatusEx"
+(4)Support device's synchronous playback mutiple windows 
+(5)Add new function "NET_SDK_UpgradeIPC";
+>>>>>>> a6d2214bda1c223f2b5a1caf2eccb7f94d6903ae
 (6)Add new function "NET_SDK_PTZControl_3D_Ex";
